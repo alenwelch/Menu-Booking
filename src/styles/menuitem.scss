@@ -1,9 +1,5 @@
 h1{
-<<<<<<< HEAD
     font-family: gilroyextrabold, sans-serif;
-=======
-    font-family: sans-serif;
->>>>>>> 83659a61682c156315153614598ac82bdaaa13ea
 }
 
 .menuitems{
@@ -24,19 +20,11 @@ h1{
         border-radius: 50%;
     }
     &__img2{
-<<<<<<< HEAD
         width: 50%;
      
     }
     &__img3{
         width: 50%;
-=======
-    width: 60%;  
-     
-    }
-    &__img3{
-    width: 60%;  
->>>>>>> 83659a61682c156315153614598ac82bdaaa13ea
   }
     &__img4{
         width: 90%;
@@ -72,7 +60,6 @@ h1{
         justify-content: space-between;
     }
     &__button3{
-<<<<<<< HEAD
         background-color: #ffffff;
         height: 30px;
         display: flex;
@@ -80,14 +67,6 @@ h1{
         justify-content: center;
         border-radius: 3px;
         width: 34px;
-=======
-        background-color: #f9fbff;
-        height: 30px;
-        display: flex;
-        align-items: center;
-        justify-content:center;
-        border-radius:3px;
->>>>>>> 83659a61682c156315153614598ac82bdaaa13ea
     }
     &__button4{
         background-color: #ff7144;
@@ -96,10 +75,7 @@ h1{
         align-items: center;
         justify-content:center;
         border-radius:3px;
-<<<<<<< HEAD
         width: 34px;
-=======
->>>>>>> 83659a61682c156315153614598ac82bdaaa13ea
 
     }
 }
@@ -110,28 +86,18 @@ h1{
 
     &__wrapper{
         display: flex;
-<<<<<<< HEAD
         background-color: #F56B00;
         margin: 10px;
         border-radius: 10px;
         color: white;
         min-width: 7rem;
         justify-content: center;
-=======
-        background-color: #ff7979;
-        margin: 10px;
-        border-radius: 10px;
-        min-width: 7rem;
->>>>>>> 83659a61682c156315153614598ac82bdaaa13ea
     }
    
     &__name {
         margin: 10px;
-<<<<<<< HEAD
         color: white;
         font-weight: bold;
-=======
->>>>>>> 83659a61682c156315153614598ac82bdaaa13ea
     }
     &__img {
        
@@ -140,7 +106,6 @@ h1{
 }
 .submit{
     position: fixed;
-<<<<<<< HEAD
     height: 67px;
     background-color: #F56B00;
     z-index: 10;
@@ -155,24 +120,13 @@ h1{
     margin-left: 6%;
     font-weight: bold;
     font-size:1.5rem;
-=======
-    height:76px;
-    background-color:black ;
-    z-index: 10;
-    width:100%;
-    top: 90%;
-    color: white;
->>>>>>> 83659a61682c156315153614598ac82bdaaa13ea
 }
 .button__submit{
     display:none;
 }
 *{
     color: black;
-<<<<<<< HEAD
 }
 .app {
     background-color: #fef3c7;
-=======
->>>>>>> 83659a61682c156315153614598ac82bdaaa13ea
 }

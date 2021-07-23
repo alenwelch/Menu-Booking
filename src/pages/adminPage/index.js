@@ -13,7 +13,6 @@ export const AdminPage = () => {
       });
   }, []);
   return (
-<<<<<<< HEAD
     <>
       {/* {orders.length > 0 ? <h1>{orders[0].username}</h1> : "Recieving Data"} */}
       <div className="admin" >
@@ -37,8 +36,6 @@ export const AdminPage = () => {
         </div>
       </div>
     </>
-=======
-    <> {orders.length > 0 ? <h1>{orders[1].username}</h1> : "Recieving Data"}</>
->>>>>>> 83659a61682c156315153614598ac82bdaaa13ea
+  
   );
 };

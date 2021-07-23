@@ -6,13 +6,10 @@ import "../../styles/menupage.scss";
 import Nav from "../../components/Nav";
 import Catagory from "../../components/Catagory";
 import Submit from "../../components/Submit";
-<<<<<<< HEAD
 
-import { ToastContainer, toast } from "react-toastify";
-import "react-toastify/dist/ReactToastify.min.css";
+// import { ToastContainer, toast } from "react-toastify";
+// import "react-toastify/dist/ReactToastify.min.css";
 
-=======
->>>>>>> 83659a61682c156315153614598ac82bdaaa13ea
 export const MenuPage = ({ table, menuItems, setMenuItems }) => {
   const [name, setName] = useState("");
   const handleName = (e) => {
@@ -35,28 +32,28 @@ export const MenuPage = ({ table, menuItems, setMenuItems }) => {
       alert("Please enter your name.");
     } else {
       submitOrder();
-      // alert("Your order has been submitted.");
-      submitdone();
+      alert("Your order has been submitted.");
+  
       setMenuItems([]);
       setName("");
     }
   };
-  const toastifySuccess = () => {
-    toast("Order Placed", {
-      position: "top-right",
-      autoClose: 5000,
-      hideProgressBar: true,
-      closeOnClick: true,
-      pauseOnHover: true,
-      draggable: false,
-      className: "submit-feedback success",
-      toastId: "notifyToast",
-    });
-  };
+  // const toastifySuccess = () => {
+  //   toast("Order Placed", {
+  //     position: "top-right",
+  //     autoClose: 5000,
+  //     hideProgressBar: true,
+  //     closeOnClick: true,
+  //     pauseOnHover: true,
+  //     draggable: false,
+  //     className: "submit-feedback success",
+  //     toastId: "notifyToast",
+  //   });
+  // };
 
-  const submitdone = () => {
-    toastifySuccess();
-  };
+  // const submitdone = () => {
+  //   toastifySuccess();
+  // };
   // const [name, setName] = useState("");
   // const handleName = (e) => {
   //   setName(e.target.value);
