@@ -26,13 +26,8 @@ const Nav = ({ table, menuItems, setMenuItems }) => {
   };
   return (
     <div className="nav">
-<<<<<<< HEAD
       <h1 className="nav__logo">LOGO </h1>
       <h1 className="nav__table">Table {table}</h1>
-=======
-    <h1 className="text-2xl" >LOGO </h1>
-    <h1 className="text-2xl">Table {table}</h1>
->>>>>>> 83659a61682c156315153614598ac82bdaaa13ea
     </div>
   );
 };
